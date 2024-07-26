@@ -58,7 +58,7 @@ class RegisterPage extends StatelessWidget {
           //! Logo ---
           Icon(
             Icons.message,
-            size: 60,
+            size: 80,
             color: Theme.of(context).colorScheme.primary,
           ),
 
@@ -68,7 +68,7 @@ class RegisterPage extends StatelessWidget {
 
           //! Welcome message --
           Text(
-            "Let's create an account for you",
+            "Let's create an account",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
               fontSize: 16,

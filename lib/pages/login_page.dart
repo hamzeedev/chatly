@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
           //! Logo ---
           Icon(
             Icons.message,
-            size: 60,
+            size: 80,
             color: Theme.of(context).colorScheme.primary,
           ),
 
@@ -60,7 +60,7 @@ class LoginPage extends StatelessWidget {
           
           //! Welcome message --
           Text(
-            "Welcome back, you've been missed!",
+            "Welcome Back <3",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
               fontSize: 16,
